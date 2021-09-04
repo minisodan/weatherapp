@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(19, 50, 90)
+}
+body { 
+  font-family: 'Montserrat' sans-serif;
+  background-image: url(weather-app-backgrounds.jpeg);
+  min-height:100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+  
+.white-text {
+    color: white !important;
+  }
+  
+  .nav-myhover:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+  }
+.search-color {
+  outline: none;
+  border-radius: 16px 0px 16px 0px !important;
+  transition: 0.2s ease-out;
+  
+    border-color: black;
+    color: rgba(255, 255, 255, 0.3);
+}
+.weather-container {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.6));}
+
+.form-control { 
+  background-color: rgba(255, 255, 255, 0.3) ;
+}
+
+.form-control {
+  outline: none;
+  border-radius: 16px 0px 16px 0px !important;
+  transition: 0.2s ease-out;
+} 
+.current .temp {
+  font-size: 56px;
+}
+.current .temp span {
+  font-size: 45px;
+}
+.current .weather { 
+  font-size: 40px
+}
